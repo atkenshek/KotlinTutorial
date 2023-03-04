@@ -45,6 +45,12 @@ fun main(args: Array<String>) {
         print("${numbers[i]}, ")
     }
 
+    val items = arrayListOf<String>()
+    items.add("Meiram")
+    items.add("Sopy")
+    items.add("John")
+
+    println(items[0].substring( 2))
 }
 
 
